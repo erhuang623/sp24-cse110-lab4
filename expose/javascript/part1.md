@@ -17,3 +17,4 @@ Line 9 returns an error becauase result is being reassigned but it was defined a
 
 ## Question 6: What is printed by line 13?
 line 13 returns an error because result is only defined in the scope of the if statement, and is not define in the else statement.
+
