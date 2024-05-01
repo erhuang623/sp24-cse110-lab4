@@ -5,3 +5,4 @@ The bug is that both variables num1 and num2 are strings, so it concatenates the
 
 ## 2. How did you fix it?
 Call the Number function on both inputs num1 and num2 to convert them into numbers. Alternatively I could've changed it so it only accepts numbers.
+I also added semicolons

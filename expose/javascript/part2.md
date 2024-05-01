@@ -55,16 +55,22 @@ The function returns the array with the prices in half. This is because even tho
 
 - B. '3' - 2
   - the output is 1 because you can't subtract a string, so it converts 3 into an integer so 3-2 = 1 
+
 - C. 3 + null
   - Output is 3 because in addition, we treat null as 0
+  
 - D. '3' + null
   - It converts null to a string and concatenates it so it outputs 3null
+
 - E. true + 3
   - It outputs 4 because true can be represented in numbers as 1. e.g binary. so 1 + 3 = 4
+
 - F. false + null
   - False is equivalent to 0 and null is also zero so 0 + 0 = 0
+
 - G. '3' + undefined
   - Outputs '3undefined' because using + on a string will convert undefined to a string and concatenate it to the string '3'
+
 - H. '3' - undefined
   - It outputs NaN because it tries to convert 3 to a number but since undefined doesn't have a numeric value, it results in NaN(Not a Number)
 
